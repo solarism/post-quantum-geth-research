@@ -1,8 +1,13 @@
 package vm
 
+//import (
+//	"github.com/ethereum/go-ethereum/crypto/pqc" // 引用我們自己寫的套件
+//	"github.com/ethereum/go-ethereum/common"
+//)
+
 import (
-	"github.com/ethereum/go-ethereum/crypto/pqc" // 引用我們自己寫的套件
-	"github.com/ethereum/go-ethereum/common"
+    "github.com/solarism/post-quantum-geth-research/crypto/pqc" // 改成本地路徑
+    "github.com/ethereum/go-ethereum/common"
 )
 
 // ----------------------------------------------------------------
